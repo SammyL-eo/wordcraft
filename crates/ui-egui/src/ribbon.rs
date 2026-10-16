@@ -663,7 +663,7 @@ pub(crate) fn language_menu(ui: &mut Ui, app: &mut WordApp) {
         current.eq_ignore_ascii_case(tag)
             || (tag == "pl-PL" && current.eq_ignore_ascii_case("pl"))
             || (tag == "pt-BR" && current.eq_ignore_ascii_case("pt"))
-            || (tag == "es-419" && current.eq_ignore_ascii_case("es"));
+            || (tag == "es-419" && current.eq_ignore_ascii_case("es"))
             || (tag == "it-IT" && current.eq_ignore_ascii_case("it"))
             || (tag == "hr-HR" && current.eq_ignore_ascii_case("hr"))
             || (tag == "tr-TR" && current.eq_ignore_ascii_case("tr"))
